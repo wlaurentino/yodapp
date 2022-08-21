@@ -1,10 +1,10 @@
 ## Yodapp
 
-Projeto do curso Gravidade Zero da QAcademy, onde é estudado como realizar  **testes Web**  utilizando  **Robot Framework**.
+Project of the course Gravidade Zero of the QAcademy school, which I've perfomed **Web tests** using **Robot Framework**.
 
-### [](https://github.com/Taelyth/GravidadeZERO/blob/master/README.md#pr%C3%A9-requisitos)Pré-Requisitos
+### [](https://github.com/wlaurentino/yodapp/blob/f360938f3fa683e6d0b5a96f054c7ca85b0e0b18/README.md)Requirements
 
--   Instalar essas duas bibliotecas no arquivo  [base.robot](https://github.com/Taelyth/GravidadeZERO/blob/master/yodapp/resources/base.robot)
+-   Install both libraries of this file [base.robot](https://github.com/wlaurentino/yodapp/blob/f360938f3fa683e6d0b5a96f054c7ca85b0e0b18/resources/base.robot)
 
 ```
 Library  Browser
@@ -12,20 +12,16 @@ Library  String
 
 ```
 
--   URL utilizada para as aulas:  [Yodapp](https://yodapp-testing.vercel.app/)
+-   URL used in this project:  [Yodapp](https://yodapp-testing.vercel.app/)
 
 ----------
 
-### [](https://github.com/Taelyth/GravidadeZERO/blob/master/README.md#gloss%C3%A1rio)Glossário
+### [](https://github.com/wlaurentino/yodapp/blob/f360938f3fa683e6d0b5a96f054c7ca85b0e0b18/README.md)Glossary
 
-`actions.robot`  Arquivo contendo todas as ações realizadas em Keywords, as quais são chamadas nos testes.
+`actions.robot`  File containing all actions performed by Keyword on the tests.
 
-`base.robot`  Arquivo base com as bibliotecas, url, e Setup/Teardown dos testes.
+`base.robot`  Base file with the libraries, url and Setup/Teardown of the tests.
 
-`tests`  Diretório contendo os testes realizados, onde são chamadas as Keywords do actions.robot.
+`tests`  Directory containing the tests performed which are called by the Keyword of the actions.robot file.
 
-`users.py`  Massa de dados usada nos testes do arquivo cadastro.robot.
-
-`extra`  Diretório com alguns estudos feitos utilizando outras urls.
-
-`logs`  Diretório com os logs gerados pelo Robot Framework (não vai para o commit).
+`users.py`  Mass of data used in the tests.
